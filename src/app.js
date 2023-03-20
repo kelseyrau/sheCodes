@@ -28,8 +28,6 @@ let form = document.querySelector(".searchForm");
 form.addEventListener("submit", search);
 
 function getCurrentLocation(position) {
-  console.log(position.coords.lat);
-  console.log(position.coords.lon);
   let lat = position.coords.latitude;
   let lon = position.coords.longitude;
   let apiKey = "422a3298b29e07a997d951a05930e2a3";
